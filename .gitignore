@@ -1,0 +1,74 @@
+# System and user files
+.bash_history
+.cargo-ok
+Cargo.lock
+WebFileOpen_*
+oidnative.node
+*.node
+955717e8-*
+
+# User home directory files
+**/.cargo/**
+**/.rustup/**
+**/.bash_history
+**/.zsh_history
+**/.gitconfig
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build artifacts
+target/
+dist/
+build/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Node modules (if applicable)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Python (if applicable)
+__pycache__/
+*.py[cod]
+*.pyc
+venv/
+env/
+
+# Rust (if applicable)
+target/
+Cargo.lock
+
+# Exclude everything in parent directories
+../*
+../../*
+../../../*
+
+
